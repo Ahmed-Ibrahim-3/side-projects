@@ -1,7 +1,3 @@
-# this code takes values about a projectile and a circle and finds their points of intersection
-# i coded this months ago and no longer understand what any of the variables mean
-# i am sorry 
-
 import numpy as np
 import random as rd
 
@@ -71,7 +67,6 @@ if __name__ == '__main__':
     
     import matplotlib.pyplot as plt
     
-    # these values(probably) affect the trajectory of the bullet as well as size and location of the circle
     x = np.linspace(0,1,101)
     xt = rd.uniform(0.1,0.9)
     yt = rd.uniform(0.1,0.9)
